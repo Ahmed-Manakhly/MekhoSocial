@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- MY title -->
+    <title>MekhoSocial</title>
+    <!-- iconscout.CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <!-- swiper js -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" /> -->
+    <!-- my stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!--///////////////////////////////////////////////////////// the nav -->
+    <nav>
+        <div class="container">
+            <!-- LOGO -->
+            <a href="index.html">
+                <h2>MekhoSocial</h2>
+            </a>
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="search for creators">
+            </div>
+            <div class="create">
+                <label for="create-post" class="btn btn-primary">create</label>
+                <div class="profile-photo">
+                    <img src="./images/profile-1.jpg" alt="">
+                </div>
+    </nav>
+    <!--///////////////////////////////////////////////////////////// end of nav -->
+    <!--///////////////////////////////////////////////////////////// main -->
+    <main>
+        <div class="container">
+            <!--=================================== lef=========================== -->
+            <div class="left">
+
+                <!-- profile -->
+                <a href="" class="profile">
+                    <div class="profile-photo">
+                        <img src="./images/profile-1.jpg" alt="">
+                    </div>
+                    <div class="handle">
+                        <h4>Noah Ahmed</h4>
+                        <p class="text-muted">
+                            @dayi
+                        </p>
+                    </div>
+                </a>
+
+                <!-- side-bar -->
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class="uil uil-home"></i></span>
+                        <h3>Home</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-compass"></i></span>
+                        <h3>Explore</h3>
+                    </a>
+                    <a class="menu-item" id="notification">
+                        <span><i class="uil uil-bell"><small class="notification-count">9+</small></i></span>
+                        <h3>Notification</h3>
+                        <!-- notification pop-up -->
+                        <div class="notification-popup">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-2.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Hamza El Khateb</b>Accepted Your Friend Request
+                                    <small class="text-muted">2 Days Ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-3.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Gehad Elsaid</b>Commented On Your Post
+                                    <small class="text-muted">a few minutes ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-4.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Sara Ali Rushdy</b>loved your photo
+                                    <small class="text-muted">5 minutes ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-5.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>sereen abdulrahman</b>Accepted Your Friend Request
+                                    <small class="text-muted">2 Days Ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-6.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>magda oraby</b>changed her profile photo
+                                    <small class="text-muted">1 houre ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-7.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>osama mohamed</b>Commented On Your Post
+                                    <small class="text-muted">2 Days Ago</small>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="menu-item" id="messages-notifications">
+                        <span><i class="uil uil-envelope-exclamation"><small class="notification-count">6</small></i></span>
+                        <h3>Messages</h3>
+                    </a>
+
+                    <a class="menu-item">
+                        <span><i class="uil uil-bookmark-full"></i></span>
+                        <h3>Bookmarks</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-analytics"></i></span>
+                        <h3>Analytics</h3>
+                    </a>
+                    <a class="menu-item" id="theme">
+                        <span><i class="uil uil-palette"></i></span>
+                        <h3>Themes</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-setting"></i></span>
+                        <h3>Settings</h3>
+                    </a>
+                </div>
+                <!--================================= create post ========================== -->
+                <label for="create-post" class="btn btn-primary">create</label>
+            </div>
+
+
+            <!--================================= middle ========================== -->
+            <div class="middle">
+                <!-- stories -->
+                <div class="stories">
+
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-1.jpg" alt="">
+                        </div>
+                        <p class="name">Your story</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-5.jpg" alt="">
+                        </div>
+                        <p class="name">sereen abdulrahman</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-3.jpg" alt="">
+                        </div>
+                        <p class="name">Gehad Elsaid</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-2.jpg" alt="">
+                        </div>
+                        <p class="name">Hamza El Khateb</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-7.jpg" alt="">
+                        </div>
+                        <p class="name">osama mohamed</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-6.jpg" alt="">
+                        </div>
+                        <p class="name">magda oraby</p>
+                    </div>
+
+                </div>
+                <!-- posts -->
+                <form action="" class="create-post">
+                    <div class="profile-photo">
+                        <img src="./images/profile-1.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="what's on your mind, noah?" id="create-post">
+                    <input type="submit" value="post" class="btn btn-primary newpost">
+                </form>
+
+                <!-- feeds -->
+                <div class="feeds">
+
+                    <!-- single feed -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-5.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>sereen abdulrahman</h3>
+                                    <small class="text-muted">Dubai, 15 minutes ago</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-1.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart-alt"></i></span>
+                                <span><i class="uil uil-comment"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-11.jpg" alt=""></span>
+                            <span><img src="./images/profile-1.jpg" alt=""></span>
+                            <span><img src="./images/profile-7.jpg" alt=""></span>
+                            <p>Liked by<b>Esraa</b>and <b>2,525 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>sereen abdulrahman</b>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<a class="hash-tag">#lifestyle</a></p>
+                        </div>
+                        <div class="comments text-muted">View all 271 comments</div>
+                    </div>
+                    <!-- end feed -->
+
+
+                    <!-- single feed -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-6.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>magda oraby</h3>
+                                    <small class="text-muted">mansoura, 47 minutes ago</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-2.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart-alt"></i></span>
+                                <span><i class="uil uil-comment"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-12.jpg" alt=""></span>
+                            <span><img src="./images/profile-13.jpg" alt=""></span>
+                            <span><img src="./images/profile-14.jpg" alt=""></span>
+                            <p>Liked by<b>Lilla</b>and <b>2,525 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>magda oraby</b>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<a class="hash-tag">#very-helpful</a></p>
+                        </div>
+                        <div class="comments text-muted">View all 271 comments</div>
+                    </div>
+                    <!-- end feed -->
+
+
+                    <!-- single feed -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-11.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>hamdy da ana</h3>
+                                    <small class="text-muted">alex</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-3.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart-alt"></i></span>
+                                <span><i class="uil uil-comment"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-1.jpg" alt=""></span>
+                            <span><img src="./images/profile-16.jpg" alt=""></span>
+                            <span><img src="./images/profile-2.jpg" alt=""></span>
+                            <p>Liked by<b>magda oraby</b>and <b>2,100 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>hamdy da ana</b>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<a class="hash-tag">#GoForYourDream</a></p>
+                        </div>
+                        <div class="comments text-muted">View all 85 comments</div>
+                    </div>
+                    <!-- end feed -->
+
+
+                    <!-- single feed -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-7.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>osama mohamed</h3>
+                                    <small class="text-muted">Giza, 2 Days ago</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-4.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart-alt"></i></span>
+                                <span><i class="uil uil-comment"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-9.jpg" alt=""></span>
+                            <span><img src="./images/profile-11.jpg" alt=""></span>
+                            <span><img src="./images/profile-1.jpg" alt=""></span>
+                            <p>Liked by<b>You</b>and <b>45 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>osama mohamed</b>what is this ????<a class="hash-tag">#happy-eid</a></p>
+                        </div>
+                        <div class="comments text-muted">View all 17 comments</div>
+                    </div>
+                    <!-- end feed -->
+
+
+                    <!-- single feed -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-3.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Gehad Elsaid</h3>
+                                    <small class="text-muted">Cairo, 60 minutes ago</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-5.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart-alt"></i></span>
+                                <span><i class="uil uil-comment"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-17.jpg" alt=""></span>
+                            <span><img src="./images/profile-18.jpg" alt=""></span>
+                            <span><img src="./images/profile-4.jpg" alt=""></span>
+                            <p>Liked by<b>osama mohamed</b>and <b>92 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Gehad Elsaid</b>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<a class="hash-tag">#we-can-do-it</a></p>
+                        </div>
+                        <div class="comments text-muted">View all 46 comments</div>
+                    </div>
+                    <!-- end feed -->
+
+
+                    <!-- single feed -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-11.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Abdulrahman Galal</h3>
+                                    <small class="text-muted">Dubai, 15 minutes ago</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-6.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart-alt"></i></span>
+                                <span><i class="uil uil-comment"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-12.jpg" alt=""></span>
+                            <span><img src="./images/profile-8.jpg" alt=""></span>
+                            <span><img src="./images/profile-19.jpg" alt=""></span>
+                            <p>Liked by<b>alla darweesh</b>and <b>92 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Abdulrahman Galal</b>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<a class="hash-tag">#coding</a></p>
+                        </div>
+                        <div class="comments text-muted">View all 50 comments</div>
+                    </div>
+                    <!-- end feed -->
+
+
+                    <!-- single feed -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-15.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Kareem mahmoud</h3>
+                                    <small class="text-muted">makka, 20 minutes ago</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-7.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart-alt"></i></span>
+                                <span><i class="uil uil-comment"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-6.jpg" alt=""></span>
+                            <span><img src="./images/profile-3.jpg" alt=""></span>
+                            <span><img src="./images/profile-2.jpg" alt=""></span>
+                            <p>Liked by<b>Hamza El Khateb</b>and <b>2,247 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>karema</b>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<a class="hash-tag">#working</a></p>
+                        </div>
+                        <div class="comments text-muted">View all 74 comments</div>
+                    </div>
+                    <!-- end feed -->
+
+                </div>
+            </div>
+
+
+            <!--================================= right ========================== -->
+            <div class="right">
+                <!-- messages -->
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4><i class="uil uil-pen"></i>
+                    </div>
+                    <!-- search bar -->
+                    <div class="search-bar">
+                        <i class="uil uil-search"></i>
+                        <input type="search" placeholder="Search Messages" id="message-search">
+                    </div>
+                    <!-- messages category -->
+                    <div class="category">
+                        <h6 class="active primary">Primary</h6>
+                        <h6 class="general">General</h6>
+                        <h6 class="message-requests requests">Requests(7)</h6>
+                    </div>
+                    <div class="messages__taps">
+                        <div id="primary" class="tap">
+                            <!-- message -->
+                            <div class="message">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-19.jpg" alt="">
+                                </div>
+                                <div class="message-body">
+                                    <h5>ali el-saied</h5>
+                                    <p class="text-bold">3 New Messages</p>
+                                </div>
+                            </div>
+                            <!-- message -->
+                            <div class="message">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-20.jpg" alt="">
+                                </div>
+                                <div class="message-body">
+                                    <h5>Shaimaa Nabil</h5>
+                                    <p class="text-bold">Ok!</p>
+                                </div>
+                            </div>
+                            <!-- message -->
+                            <div class="message">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-5.jpg" alt="">
+                                </div>
+                                <div class="message-body">
+                                    <h5>sereen abdulrahman</h5>
+                                    <p class="text-bold">Is there any updates??</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="general" class="tap">
+                            <!-- message -->
+                            <div class="message">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-17.jpg" alt="">
+                                    <div class="active"></div>
+                                </div>
+                                <div class="message-body">
+                                    <h5>Heba Mohamed</h5>
+                                    <p class="text-bold">you have an interview tomorrow</p>
+                                </div>
+                            </div>
+                            <!-- message -->
+                            <div class="message">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-18.jpg" alt="">
+                                    <div class="active"></div>
+                                </div>
+                                <div class="message-body">
+                                    <h5>Mohamed Emad</h5>
+                                    <p class="text-muted">I got it, Thanks</p>
+                                </div>
+                            </div>
+                            <!-- message -->
+                            <div class="message">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-19.jpg" alt="">
+                                </div>
+                                <div class="message-body">
+                                    <h5>ali el-saied</h5>
+                                    <p class="text-bold">3 New Messages</p>
+                                </div>
+                            </div>
+                            <!-- message -->
+                            <div class="message">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-20.jpg" alt="">
+                                </div>
+                                <div class="message-body">
+                                    <h5>Shaimaa Nabil</h5>
+                                    <p class="text-bold">Ok!</p>
+                                </div>
+                            </div>
+                            <!-- message -->
+                            <div class="message">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-3.jpg" alt="">
+                                    <div class="active"></div>
+                                </div>
+                                <div class="message-body">
+                                    <h5>Gehad Elsaid</h5>
+                                    <p class="text-muted">الحمد لله</p>
+                                </div>
+                            </div>
+                            <!-- message -->
+                            <div class="message">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-5.jpg" alt="">
+                                </div>
+                                <div class="message-body">
+                                    <h5>sereen abdulrahman</h5>
+                                    <p class="text-bold">Is there any updates??</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="requests" class="tap">
+                            <div class="request">
+                                <div class="info">
+                                    <div class="profile-photo">
+                                        <img src="./images/profile-13.jpg" alt="">
+                                    </div>
+                                    <div class="sender">
+                                        <h5>Hagar Ibrahim</h5>
+                                        <p class="text-muted">
+                                            8 mutual friends
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="action">
+                                    <button class="btn btn-primary">
+                                        Accept
+                                    </button>
+                                    <button class="btn">
+                                        Decline
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="request">
+                                <div class="info">
+                                    <div class="profile-photo">
+                                        <img src="./images/profile-14.jpg" alt="">
+                                    </div>
+                                    <div class="sender">
+                                        <h5>Mona Allaa</h5>
+                                        <p class="text-muted">
+                                            8 mutual friends
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="action">
+                                    <button class="btn btn-primary">
+                                        Accept
+                                    </button>
+                                    <button class="btn">
+                                        Decline
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="request">
+                                <div class="info">
+                                    <div class="profile-photo">
+                                        <img src="./images/profile-15.jpg" alt="">
+                                    </div>
+                                    <div class="sender">
+                                        <h5>Kareem mahmoud</h5>
+                                        <p class="text-muted">
+                                            8 mutual friends
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="action">
+                                    <button class="btn btn-primary">
+                                        Accept
+                                    </button>
+                                    <button class="btn">
+                                        Decline
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- friend request -->
+                <div class="friend-requests">
+                    <h4>Request</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="./images/profile-13.jpg" alt="">
+                            </div>
+                            <div class="sender">
+                                <h5>Hagar Ibrahim</h5>
+                                <p class="text-muted">
+                                    8 mutual friends
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="./images/profile-14.jpg" alt="">
+                            </div>
+                            <div class="sender">
+                                <h5>Mona Allaa</h5>
+                                <p class="text-muted">
+                                    8 mutual friends
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="./images/profile-15.jpg" alt="">
+                            </div>
+                            <div class="sender">
+                                <h5>Kareem mahmoud</h5>
+                                <p class="text-muted">
+                                    8 mutual friends
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- ==================================== themes =========================== -->
+
+    <div class="customize-theme">
+        <div class="card">
+            <h2>Customize Your View</h2>
+            <p class="text-muted">Manage your font size, color, and backward</p>
+            <!-- font size -->
+
+            <div class="font-size">
+                <h4>Font Size</h4>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2 active"></span>
+                        <span class="font-size-3"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+
+            <!-- primary colors -->
+            <div class="colo">
+                <h4>Color</h4>
+                <div class="choose-color">
+                    <span class="color-1 active"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+
+            <!-- background-color -->
+            <div class="background">
+                <h4>Background</h4>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for="bg-1">Light</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5 for="bg-2">Dim</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Lights Out</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <SCript src="./index.js"></SCript>
+</body>
+
+</html>
